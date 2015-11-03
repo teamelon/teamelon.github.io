@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="initial-scale=1, width=device-width">
+	<meta charset="utf-8">
+
+	<title>Prasmeb</title>
+	<link href="includes/styles.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+
+<body>
+	
+	<header>
+		<h1><a href="index.html">Prasmeb</a></h1>
+	</header>
+
+	<nav>
+		<ul>
+			<a href="index.html"><li>O nas</li></a>
+			<a href="kontakt.html"><li>Kontakt</li></a>
+			<a href="galeria.html"><li>Galeria</li></a>
+			<a href="feedback.html"><li>Nasi Klienci</li></a>
+			<a href="oferta.html"><li>Produkty</li></a>
+		</ul>
+		<div class="handle">
+			Menu
+			<div class="btn">&#9776;</div>
+		</div>
+	</nav>
+
+	<div class="container">
+		<section>
+			<div class="kolumna">
+				<img src="img/12maly.jpg" alt="plyty">
+			</div>
+			<div class="kolumna">	 
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostr.</p>
+			</div>
+		</section>
+	</div>   <!-- End of container -->
+
+	<footer>
+		<div class="wrapper">teamelon &copy <?php echo date('Y'); ?></div>
+	</footer>
+
+<script>
+	$('.handle').on('click', function(){
+		$('nav ul').toggleClass('showing-menu');
+	});
+</script>
+
+</body>
+</html>

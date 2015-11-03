@@ -70,7 +70,7 @@ nav ul li a:visited {color:white; background-color:transparent; text-decoration:
 	width: 70%;
 	margin: auto;
 	min-height: 100%;
-	margin-bottom: -100px;
+	margin-bottom: -200px;
 }
 
 .container:after {
@@ -159,6 +159,9 @@ footer .wrapper {
 	}
 	section {
 		width: 100%;
+	}
+	.footer {
+		bottom: 0 !important;
 	}
 }
 

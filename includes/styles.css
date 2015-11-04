@@ -105,6 +105,10 @@ section {
 	color: #43a286;
 }
 
+.push, .footer {
+	height: 100px;
+}
+
 #kontakt {
 	padding-left: 3em;
 	font-size: 1.4em;
@@ -184,7 +188,7 @@ footer .wrapper {
 
 @media screen and (max-width: 600px) {
 	.container {
-		margin-bottom: 0px;
+		margin-bottom: -100px;
 	}
 	nav ul {
 		max-height: 0;

@@ -82,6 +82,7 @@ section {
 }
 
 .kolumna {
+	min-height: 399px;
 	width: 48%;
 	margin: 2% 1% 0 1%;
 	padding: 0;
@@ -99,6 +100,9 @@ section {
     width: 100%;
     height: auto;
     width: auto\9; /* ie8 */
+}
+.kolumna p {
+	margin-top: 0px;
 }
 
 .kolumna span {
@@ -121,7 +125,6 @@ footer {
 	width: 100%;
 	color: #43a286;
 	text-align: center;
-
 	display: table-row;
 }
 
@@ -144,7 +147,6 @@ footer .wrapper {
 
 .handle .btn {
 	float: right;
-	
 }
 
 
@@ -168,6 +170,7 @@ footer .wrapper {
 	}
 	.kolumna {
 		width: 100%;
+		min-height: auto;
 		clear: both;
 		margin: 0;
 	}
@@ -213,12 +216,13 @@ footer .wrapper {
 	.handle {
 		display: block;
 	}
-	.kolumna {
-		text-align: center;
-	}
+
 	.kolumna iframe {
-		width: 80vw;
-		height: 60vw;
+		max-height: 300px;
+		width: 90%;
+		margin-right: 5%;
+		margin-left: 5%;
+
 	}
 }
 

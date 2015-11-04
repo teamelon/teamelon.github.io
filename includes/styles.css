@@ -70,17 +70,8 @@ nav ul li a:visited {color:white; background-color:transparent; text-decoration:
 	width: 70%;
 	margin: auto;
 	min-height: 100%;
-	margin-bottom: -200px;
 }
 
-.container:after {
-	content: "";
-	display: block;
-}
-
-.container:after, footer {
-	height: 100px;
-}
 
 section {
 	line-height: 1.5em;

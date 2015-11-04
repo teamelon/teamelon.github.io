@@ -170,7 +170,7 @@ footer .wrapper {
 	}
 	.kolumna {
 		width: 100%;
-		min-height: auto;
+		min-height: 0px;
 		clear: both;
 		margin: 0;
 	}

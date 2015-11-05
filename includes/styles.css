@@ -109,7 +109,7 @@ section {
 	color: #43a286;
 }
 
-.push, .footer {
+.push, footer {
 	height: 100px;
 }
 
@@ -148,7 +148,51 @@ footer .wrapper {
 .handle .btn {
 	float: right;
 }
+/* 
+--------------------------------------------------------------
+|						GALLERY								 |
+--------------------------------------------------------------
+*/
+ul.rig {
+	list-style: none;
+	padding-left: 0px;
+	 /* should match li left margin */
+}
+ul.rig li {
+	display: inline-block;
+	padding: 1%;
+	margin: 1% 2%;
+	background: #fff;
+	vertical-align: top;
+	box-shadow: 0 0 5px #43a286;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+ul.rig li img {
+	max-width: 300px;
+	width: 100%;
+	height: auto;
+	margin: 0px;
+}
 
+/* class for 2 columns */
+ul.rig.columns-2 li {
+	width: 47.5%; /* this value + 2.5 should = 50% */
+}
+/* class for 4 columns */
+ul.rig.columns-4 li {
+	width: 20.5%; 
+}
+
+
+ 
+
+/* 
+--------------------------------------------------------------
+|						MEDIA QUERIES						 |
+--------------------------------------------------------------
+*/
 
 @media screen and (max-width: 1100px) {
 	.container {
@@ -184,6 +228,10 @@ footer .wrapper {
 	#kontakt {
 		font-size: 1.8em;
 		line-height: 3.7vmax;
+	}
+	
+	ul.rig.columns-4 li {
+		width: 28%; 
 	}
 }
 
@@ -222,7 +270,22 @@ footer .wrapper {
 		width: 90%;
 		margin-right: 5%;
 		margin-left: 5%;
-
+	}
+/*		GALLERY		 */
+	ul.grid-nav li {
+		display: block;
+		margin: 0 0 5px;
+	}
+	ul.grid-nav li a {
+		display: block;
+	}
+	ul.rig {
+		margin-left: 0;
+	}
+	ul.rig li {
+		width: 100% !important; /* over-ride all li styles */
+		margin: 3% 1%;
+		text-align: center;
 	}
 }
 

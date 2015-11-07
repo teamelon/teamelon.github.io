@@ -6,7 +6,9 @@
 	<meta charset="utf-8">
 
 	<title>Prasmeb</title>
+
 	<link href="includes/styles.css" rel="stylesheet">
+	<link href="includes/lightbox.css" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </head>
 
@@ -31,25 +33,25 @@
 	</nav>
 
 	<div class="container">
-		<div class="gallery">
+		<div class="gal">
 			<ul class="rig columns-4">
 		    	<li>
-		    		<a href="img/1.jpg"><img src="img/thumb/1-thumb.jpg" /></a>
+		    		<a href="img/1.jpg" data-lightbox="galeria"><img src="img/1-thumb.jpg"/></a>
 		    	</li>
 		    	<li>
-		    		<a href="img/2.jpg"><img src="img/thumb/2-thumb.jpg" /></a>
+		    		<a href="img/2.jpg" data-lightbox="galeria"><img src="img/2-thumb.jpg"/></a>
 		    	</li>
 		    	<li>
-		    		<a href="img/3.jpg"><img src="img/thumb/3-thumb.jpg" /></a>
+		    		<a href="img/3.jpg" data-lightbox="galeria"><img src="img/3-thumb.jpg"/></a>
 		    	</li>
 		    	<li>
-		    		<a href="img/6.jpg"><img src="img/thumb/6-thumb.jpg" /></a>
+		    		<a href="img/6.jpg" data-lightbox="galeria"><img src="img/6-thumb.jpg"/></a>
 		    	</li>
 		    	<li>
-		    		<a href="img/13.jpg"><img src="img/thumb/13-thumb.jpg" /></a>
+		    		<a href="img/13.jpg" data-lightbox="galeria"><img src="img/13-thumb.jpg"/></a>
 		    	</li>
 		    	<li>
-		    		<a href="img/15.jpg"><img src="img/thumb/15-thumb.jpg" /></a>
+		    		<a href="img/15.jpg" data-lightbox="galeria"><img src="img/15-thumb.jpg"/></a>
 		    	</li>
     		</ul>
 		</div>
@@ -67,6 +69,8 @@
 		$('nav ul').toggleClass('showing-menu');
 	});
 </script>
+
+<script src="js/lightbox-plus-jquery.min.js" type="text/javascript"></script>
 
 </body>
 </html>

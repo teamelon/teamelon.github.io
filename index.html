@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<title>Teamelon</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,700&amp;subset=latin-ext" rel="stylesheet"> 
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+	<div id="wrapper">
+		<header class="page_header">
+			<a href="index.html" title="Go back to homepage">
+				<img class="logo" src="img/logo_white.png" alt="logo">
+			</a>
+			<nav class="page_nav">
+				<ul class="menu">
+					<li><a href="#" title="My Portfolio">Portfolio</a></li>
+					<li><a href="#" title="About me">About</a></li>
+					<li><a href="#" title="A few pictures">Gallery</a></li>
+					<li><a href="#" title="Click if you want to contact me">Contact</a></li>
+				</ul>
+				<div class="icon">
+					<button class="hamburger" type="button"></button>
+				</div>
+			</nav>
+
+		</header>
+		<main>
+			<!-- ------------------------------ABOUT---------------------------- -->
+			<section>
+				<header class="about_header">
+					<h2>Do something. Do anything.</h2>
+					<p class="lead">I'm a web developer & programmer living in Lublin, Poland. I'm interested in new technologies and information architecture. I can help you build your next product.</p>
+					<div class="author_pic">
+						<img src="img/author_thumb.jpg" alt="teamelon - author">
+					<p class="author_name">Mateusz Chmielewski</p>
+					</div>
+				</header>
+				<p class="article_content">Front-End Developer, with practical experience in project deployment and creative direction; interested in new technologies and information architecture.</p>
+				<aside class="side_picture">
+					<img src="img/product.jpg" alt="Product creation">
+				</aside>
+			</section>
+			<!-- -----------------------------PORTFOLIO-------------------------- -->
+			<section class="portfolio">
+			<hr>
+				<h2>Portfolio</h2>
+				<h3>My latest projects</h3>
+				<div class="portfolio_projects">
+					<figure class="project_pic">
+						<img src="https://placehold.it/150x80?text=IMAGE" class="" style="width:100%" alt="Image">
+						<figcaption>some text</figcaption>
+					</figure>
+					<figure class="project_pic">
+						<img src="https://placehold.it/150x80?text=IMAGE" class="" style="width:100%" alt="Image">
+						<figcaption>some text</figcaption>
+					</figure>
+					<figure class="project_pic">
+						<img src="https://placehold.it/150x80?text=IMAGE" class="" style="width:100%" alt="Image">
+						<figcaption>some text</figcaption>
+					</figure>
+				</div>
+			</section>
+
+			<!-- ------------ CONTACT ME ------------- -->
+			<section class="contact">
+				<hr/>
+				<h2>Contact Me</h2>
+				<form class="contact_form" action="" method="POST">
+					<fieldset>
+						<div class="form_group">
+							<label class="form_name" for="name"></label>
+							<input id="name" name="name" type="text" placeholder="Your name">
+						</div>
+						<div class="form_group">
+							<label class="form_email" for="email"></label>
+							<input id="email" name="email" type="text" placeholder="Your email" class="form-control">
+						</div>
+						<div class="form_group">
+							<label class="form_message" for="message"></label>
+							<textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+						</div>
+						<div class="form_group btn">
+							<button type="submit" class="contact_button">Send</button>
+						</div>
+					</fieldset>
+				</form>
+				<p>Want to get in touch with me? Maybe you want to request more information about myself or my experience, to ask for my resume... just feel free to message me anytime.
+      I promise to reply A.S.A.P.</p>
+      	<div class="social_media">
+      	<h3>Find me around the web</h3>
+      		<ul>
+      			<li class="social_button"><a href="https://www.freecodecamp.org/teamelon"><img id="freecodecamp" src="img/fcc.png"></a></li>
+      			<li class="social_button"><a href="https://github.com/teamelon"><img id="github" src="img/GitHub.png"></a></li>
+      			<li class="social_button"><a href="https://codepen.io/teamelon/#"><img  id="codepen" src="img/codepen-w.png"></a></a></li>
+      		</ul>
+      	</div>
+			</section>
+			<footer>
+				<small>&copy; <span>tea</span>melon 2018, All rights reserved</small>
+			</footer>
+		</main>		
+	</div>
+
+	<script src="js/main.js"></script>
+</body>
+</html>

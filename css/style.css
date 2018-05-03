@@ -149,7 +149,7 @@ hr {
 
 .icon {
 	position: absolute;
-	left: 90%;
+	left: calc(100% - 35px);
 	top: 46px;
 	transform: translate(-50%, -50%);
 	width: 80px;
@@ -332,7 +332,7 @@ hr {
   font-size: 13px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
-  left: 70vw;
+  left: calc(100% - 90px);
   position:absolute;
 }
 
@@ -345,6 +345,8 @@ hr {
   background-image: linear-gradient(to bottom, #f03333, #f5515e);
   text-decoration: none;
 }
+
+/* -----------SOCIAL MEDIA LINKS -----------------*/
 
 .social_media ul {
 	list-style: none;
@@ -404,4 +406,36 @@ footer {
 
 footer span {
 	color: #26ed12;
+}
+
+
+/*------------------MEDIA QUERIES ----------------*/
+
+
+@media (min-width: 40em) {
+
+	.icon {
+		display: none;
+	}
+	
+	.page_nav {
+		position: absolute;
+		top: 10px;
+		right: 20px;
+	}	
+
+	.page_nav .menu {
+		display: block;
+	}
+
+	.page_nav .menu li {
+		display: inline-block;
+		border: none;
+		margin-right: 30px;
+	}
+
+	.page_nav .menu li a {
+		color: #fff;
+	}
+	
 }

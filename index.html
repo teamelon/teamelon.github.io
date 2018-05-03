@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Teamelon</title>
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,700&amp;subset=latin-ext" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,700&amp;subset=latin-ext" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -16,10 +17,9 @@
 			</a>
 			<nav class="page_nav">
 				<ul class="menu">
-					<li><a href="#" title="My Portfolio">Portfolio</a></li>
-					<li><a href="#" title="About me">About</a></li>
-					<li><a href="#" title="A few pictures">Gallery</a></li>
-					<li><a href="#" title="Click if you want to contact me">Contact</a></li>
+					<li><a href="#about_me" title="About me">About</a></li>
+					<li><a href="#my_portfolio" title="My Portfolio">Portfolio</a></li>
+					<li><a href="#my_contact" title="Click if you want to contact me">Contact</a></li>
 				</ul>
 				<div class="icon">
 					<button class="hamburger" type="button"></button>
@@ -38,7 +38,7 @@
 					<p class="author_name">Mateusz Chmielewski</p>
 					</div>
 				</header>
-				<p class="article_content">Front-End Developer, with practical experience in project deployment and creative direction; interested in new technologies and information architecture.</p>
+				<p class="article_content" id="about_me">Front-End Developer, with practical experience in project deployment and creative direction; interested in new technologies and information architecture.</p>
 				<aside class="side_picture">
 					<img src="img/product.jpg" alt="Product creation">
 				</aside>
@@ -46,7 +46,7 @@
 			<!-- ----------------PORTFOLIO----------------- -->
 			<section class="portfolio">
 			<hr>
-				<h2>Portfolio</h2>
+				<h2 id="my_portfolio">Portfolio</h2>
 				<h3>My latest projects</h3>
 				<div class="portfolio_projects">
 					<figure class="project_pic">
@@ -67,7 +67,7 @@
 			<!-- ------------ CONTACT ME ------------- -->
 			<section class="contact">
 				<hr/>
-				<h2>Contact Me</h2>
+				<h2 id="my_contact">Contact Me</h2>
 				<form class="contact_form" action="" method="POST">
 					<fieldset>
 						<div class="form_group">

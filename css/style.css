@@ -56,13 +56,12 @@ hr {
 
 /*--------------------------------------ABOUT--------------------*/
 
-.about {
+.about_author {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
 
 .about_header {
-	grid-column: span 2;
 	background: url(../img/header.jpg) no-repeat;
 	background-size: cover;
 	background-position: 50%;
@@ -350,8 +349,8 @@ hr {
   font-size: 13px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
-  left: calc(100% - 95px);
-  position:absolute;
+  left: calc(100% - 75px);
+  position: relative;
 }
 
 .contact_button:hover {
@@ -438,6 +437,13 @@ footer span {
 
 @media (min-width: 40em) {
 
+	.page_header {
+		max-width: 1020px;
+		margin: auto;
+		left: 0;
+		right: 0;
+	}
+
 	.icon {
 		display: none;
 	}
@@ -474,6 +480,16 @@ footer span {
 	  background: none;
 	}
 
+	.lead {
+		max-width: 1020px;
+		margin: auto;
+	}
+
+	.about_author {
+		max-width: 1020px;
+		margin: auto;
+	}
+
 	.side_picture {
 		grid-column: span 1;
 	}
@@ -488,10 +504,17 @@ footer span {
 
 	.portfolio {
 		padding-top: 0px;
+		max-width: 1020px;
+		margin: auto;
 	}
 
 	.project_pic {
 		grid-column: span 6;
+	}
+
+	.contact {
+		max-width: 1020px;
+		margin: auto;
 	}
 
 	.contact_form {
